@@ -33,6 +33,7 @@ public class UserServiceimpl implements UserService {
             }
         } catch (SQLException e) {
             e.printStackTrace();
+            
         }
 
         return flag;
